@@ -6,6 +6,8 @@ import sys
  
 from  . import discrete
 
+print("START TEST")
+
 UP = 0
 RIGHT = 1
 DOWN = 2
@@ -85,3 +87,4 @@ class CliffWalkingEnv(discrete.DiscreteEnv):
 
             outfile.write(output)
         outfile.write("\n")
+print("END TEST")
